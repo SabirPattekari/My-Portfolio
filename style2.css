@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    background-color: #f4f4f4; /* Optional: set a background color */
+    font-family: Arial, sans-serif; /* Optional: set a font */
+    text-align: center; /* Center text */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center horizontally within the container */
+    align-items: center;     /* Center vertically within the container */
+    height: 3%;             /* Adjust the container height if needed */
+    width: 500%;             /* Ensure the container takes up full width */
+}
+
+.title {
+    font-size: 5em;          /* Adjust the size of the title */
+    margin-bottom: 50px;     /* Space between title and description */
+    color: #333;             /* Set text color */
+}
+
+.description {
+    font-size: 2em;        /* Adjust the size of the description */
+    margin-bottom: 40px;     /* Space between description and image */
+    color: #666;             /* Set text color */
+}
+
+.centered-image {
+    width: 250px;            /* Set the desired width */
+    height: 250px;           /* Set the desired height */
+    border-radius: 50%;      /* Optional: make image circular */
+}
